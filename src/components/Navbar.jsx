@@ -11,9 +11,9 @@ function Navbar() {
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
         {user && <Link to="/profile">Profile</Link>}
-      </div>
+      {/* </div>
 
-      <div>
+      <div> */}
         {user ? (
           <button onClick={logout}>Logout</button>
         ) : (
